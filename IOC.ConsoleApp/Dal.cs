@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IOC.ConsoleApp
 {
-    internal class Dal
+    internal class Dal:IDal
     {
         public List<Product> GetProducts()
         {
