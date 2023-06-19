@@ -8,15 +8,16 @@ namespace IOC.ConsoleApp
 {
     internal class Bl
     {
-        private Dal _dal { get; set; }
+        //private Dal _dal { get; set; }
+
         public Bl()
         {
-            _dal = new Dal();
+           // _dal = new Dal();
         }
 
         public List<Product> GetProducts()
         {
-            return _dal.GetProducts();
-        }
+            //   return _dal.GetProducts();
+            return DalFoctory.GetDal().GetProducts();        }
     }
 }
