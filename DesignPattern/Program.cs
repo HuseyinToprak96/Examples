@@ -1,4 +1,8 @@
-﻿/*
+﻿
+#region Açıklama
+
+
+/*
  Design patternler genellikle davranışsal (behavioral) ve yapısal (structural) olmak üzere iki ana kategoriye ayrılır. 
 
 1. Davranışsal tasarım desenleri, nesneler ve sınıflar arasındaki davranışları yönetmek ve organize etmek için kullanılır. Bu desenler, nesneler arasındaki etkileşimleri, sorumlulukları ve algoritma yürütme şekillerini düzenlemek için kullanılır. Örnek olarak, Observer, Strategy ve State gibi tasarım desenleri davranışsal desenlere örnek olarak verilebilir.
@@ -8,8 +12,34 @@
 Her iki kategori de farklı amaçlara hizmet eder ve tasarım problemlerine farklı çözümler sunar. Her bir tasarım deseni belirli bir senaryoya veya soruna uygun olabilir ve kullanıldıkları alanlar farklılık gösterebilir. Bu nedenle, tasarım desenlerini davranışsal ve yapısal kategorilere göre gruplandırmak, belirli bir desenin amacını ve kullanım alanını daha iyi anlamamıza yardımcı olabilir.
  */
 
-using DesignPattern.Patterns;
+/*
+1. Finansal Sektör:
 
+Observer Pattern: Finansal verilerin güncellenmesi ve dağıtılması için kullanılır.
+Strategy Pattern: Farklı yatırım stratejilerinin uygulanması için kullanılır.
+
+2. Telekomünikasyon Sektörü:
+
+Observer Pattern: Abonelerin durumlarının takip edilmesi ve bildirimlerin yapılması için kullanılır.
+Adapter Pattern: Farklı iletişim protokolleri arasında veri dönüşümü için kullanılır.
+
+3. Otomotiv Sektörü:
+
+Factory Pattern: Farklı araç modellerinin üretimi için kullanılır.
+Builder Pattern: Araç yapısının adım adım oluşturulması için kullanılır.
+
+4. E-ticaret Sektörü:
+
+Singleton Pattern: Ödeme işlemleri, sepet yönetimi gibi ortak nesnelere tek bir erişim noktası sağlamak için kullanılır.
+Observer Pattern: Stok güncellemeleri, indirim bildirimleri gibi olaylarda kullanıcıları bilgilendirmek için kullanılır.
+
+5. Oyun Geliştirme Sektörü:
+
+State Pattern: Oyundaki karakterlerin farklı durumlarının yönetimi için kullanılır.
+Composite Pattern: Oyun nesnelerinin hiyerarşik bir yapıda yönetilmesi için kullanılır.
+ */
+#endregion
+using DesignPattern.Patterns;
 
 //Iterator
 /*
