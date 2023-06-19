@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace IOC.ConsoleApp
 {
-    internal class DalFoctory
+    internal interface IDal
     {
-        public static IDal GetDal()
-        {
-            return new Dal();
-        }
+        List<Product> GetProducts();
+        //Soyut yapılar newlenemez. Abstract class veya interfaceler örnek gösterilebilir.
     }
 }
