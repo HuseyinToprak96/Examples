@@ -10,9 +10,9 @@ namespace IOC.ConsoleApp
     {
         //private Dal _dal { get; set; }
         private IDal _dal { get; set; }
-        public Bl()
+        public Bl(IDal dal)
         {
-            _dal = DalFoctory.GetDal();
+            _dal = dal;
         }
 
         public List<Product> GetProducts()
